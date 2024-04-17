@@ -35,7 +35,7 @@ sparse frame conditions, image control, zero-shot transfer to unseen conditions,
 
 ### Environment Setup
 
-To make our codebase easy to use, you primarily need to install Torch, Diffusers, and Transformers. Specific versions of these libraries are not required; the default versions should work fine.
+To make our codebase easy to use, the primary libraries that need to be installed are Torch, Diffusers, and Transformers. Specific versions of these libraries are not required; the default versions should work fine :)
 
 ```shell
 conda create -n ctrl-adapter python=3.10
@@ -55,10 +55,8 @@ sh scripts/depth_ctrladapter_inference.sh
 ```
 
 # 📝 TODO List
-There are lots of ways we are excited about improving Hotshot-XL. For example:
-
-- [x] Release environment setup, inference code for I2VGen-XL, and model checkpoints.
-- [ ] Release checkpoints for other models.  (**WIP**)
+- [x] Release environment setup, inference code for I2VGen-XL, and model checkpoints. (**WIP**)
+- [ ] Release checkpoints and inference code for other models.  (**WIP**)
 - [ ] Release training code, and guideline to adapt our Ctrl-Adapter to new image/video diffusion models. 
 - [ ] Release evaluation code.
 
